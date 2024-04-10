@@ -1,1 +1,7 @@
 
+variables:
+   {deaths}
+   {kills}
+
+on death of player:
+   add 1 to {deaths}
