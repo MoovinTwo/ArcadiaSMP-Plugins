@@ -1,7 +1,7 @@
 
 variables:
-   {deaths}
-   {kills}
+   {deaths} = 0
+   {kills} = 0
 
 on death of player:
    add 1 to {deaths}
